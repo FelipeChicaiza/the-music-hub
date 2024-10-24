@@ -1,0 +1,21 @@
+.catInfo-div {
+    display: flex;
+    width: 80%;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.catInfo-text {
+    padding: 0 20px 0;
+}
+
+.cat-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }

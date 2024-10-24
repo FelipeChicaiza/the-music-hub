@@ -5,12 +5,18 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color:#C2BD8D;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -20,14 +26,6 @@ a {
 }
 a:hover {
   color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -65,4 +63,37 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.oneCard-div {
+  width: 300px;
+  height: 100%;
+  margin: 0 10px 0;
+  border-radius: 5%;
+  background-color: #64C4AE;
+}
+
+.sidebar-div {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #64C4AE;
+  align-items: center;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  margin: 20px 0 20px 30px;
+  background-color: #3FA78D;
+}
+
+.title-text {
+  font-size: 2.5rem;
+  margin-left: 20px;
 }
